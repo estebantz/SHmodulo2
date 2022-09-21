@@ -1,0 +1,22 @@
+.mainDiv {
+    /* border: 1px solid black; */
+    margin: 10px 10px 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mainDiv button {
+    all: unset;
+    border-radius: 5px;
+    background-color: blue;
+    padding: 5px;
+    color: white;
+}
+
+.mainDiv button {
+    cursor: pointer;
+}
+
+.mainDiv input {
+    all: unset;
+}

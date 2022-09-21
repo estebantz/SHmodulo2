@@ -1,0 +1,15 @@
+.mainCard {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 200px;
+    background-color: lightblue;
+}
+
+.btn {
+    all: unset;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    color: blue;
+}
