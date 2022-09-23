@@ -1,0 +1,10 @@
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(33, 44, 33);
+    color: white;
+}
+
+.Searchbar {
+    margin-top: 5px;
+}

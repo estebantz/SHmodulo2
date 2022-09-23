@@ -1,12 +1,16 @@
-import React from 'react';
-import Logo from '../logoHenry.png'
-import SearchBar from './SearchBar.jsx';
-import './Nav.css';
+import React, { Fragment } from "react";
+import Logo from "../logoHenry.png";
+import SearchBar from "./SearchBar.jsx";
+import "./Nav.css";
 
-function Nav({onSearch}) {
+function Nav({ onSearch }) {
   return (
-    <div>Nav</div>
+    <Fragment>
+      <img src={Logo} alt="asd" />
+      <span>Esteban weather app</span>
+      <SearchBar onSearch={onSearch} />
+    </Fragment>
   );
-};
+}
 
 export default Nav;
